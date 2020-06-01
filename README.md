@@ -48,7 +48,7 @@ This visual design was created in the website [dbdiagram.io](https://dbdiagram.i
 
 ## Project structure
 
-In addition to the data files, the project workspace includes six files:
+In addition to the data files, the project workspace includes three files:
 
 1. [dl_template.cfg](dl_template.cfg) file in where we store the AWS credentials.
 2. [etl.py](etl.py) reads data from S3, processess that data using Spark in a Amazon EMR cluster, and writes them back to S3.
